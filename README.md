@@ -12,6 +12,6 @@ Students are expected to distinguish between different types of workflows for ma
 
 For each of these issues create a corresponding ticket in the Issues tab of the repository. Be sure to add the appropriate label, description and title.
 
-[ ] Feature change
-[ ] New Feature
-[ ] Bug Fix
+[] Feature change
+[] New Feature
+[] Bug Fix
