@@ -75,17 +75,18 @@ the roadmap for future improvements and features:
 ## How to Contribute
 
 1. Fork the template
-2. Clone your fork:
+2. Create ticket in Issue's tab
+3. Clone your fork:
    ```bash
    git clone https://github.com/your-username/js-calculator.git
    ```
-3. Create a new branch:
+4. Create a new branch with name matching corresponding issue:
    ```bash
    git checkout -b feature/my-feature
    ```
 
-4. Make your changes and commit them:
-5. Push your changes to your fork:
+5. Make your changes and commit them:
+6. Push your changes to your fork:
    ```bash
    git push origin feature/my-feature
    ```
