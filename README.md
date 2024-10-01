@@ -39,10 +39,12 @@ ensuring the production branch is reliably functional.
 
 - [ ] Implement square root function
 - [ ] Implement square function
-- [ ] Implement reciprocal function
 - [ ] Add keyboard support for number input
 - [ ] Improve the design (CSS styling)
 - [ ] Memory Store (`MS`), Recall (`MR`), and Clear (`MC`)
+
+### Bugs:
+- [ ] Fix reciprocal function
 
 ## Roadmap
 
