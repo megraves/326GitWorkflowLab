@@ -7,3 +7,11 @@ This project considers the topic of real-world collaboration workflows in git an
 ## Intended learning outcomes (ILOs)
 
 Students are expected to distinguish between different types of workflows for managing a git repository and know how to deal with merge conflicts. They will also learn how to communicate with other team members in a git setting to get changes implemented and pushed. They’ll understand the importance of tests in ensuring the production branch is reliably functional.
+
+## Tickets 
+
+For each of these issues create a corresponding ticket in the Issues tab of the repository. Be sure to add the appropriate label, description and title.
+
+[ ] Feature change
+[ ] New Feature
+[ ] Bug Fix
