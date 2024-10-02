@@ -99,8 +99,8 @@ the roadmap for future improvements and features:
 Two TAs will present this lab case study to a group of students. If presented on Zoom, the TAs will take turns sharing their screens presenting the steps they are taking in the following workflow:
 
 1. (TA #1) Select 2 issues from the list above and create corresponding GitHub issues. Include descriptions, tags, and assignments in the issues. Assing one issue to yourself and one issue to the other TA.
-2. (TA #1) Create the branch corresponding to the issue assigned to yourself. Make and push any changes to complete the issue. Create a pull request for the branch and assign the TA #2 as a reviewer.
-3. (TA #2) Create the branch corresponding to the issue assigned to yourself. Make and push any changes to complete the issue. Create a pull request for the branch and assign the TA #1 as a reviewer.
+2. (TA #1) Create the branch corresponding to the issue assigned to yourself. Make and push any changes to complete the issue. Don't forget about adding and running tests in the tests file. Create a pull request for the branch and assign the TA #2 as a reviewer.
+3. (TA #2) Create the branch corresponding to the issue assigned to yourself. Make and push any changes to complete the issue. Don't forget about adding and running tests in the tests file. Create a pull request for the branch and assign the TA #1 as a reviewer.
 4. (TA #2) Review the PR from TA #1 and create any necessary comments.
 5. (TA #1) Respond to the TA #1 comments and make any additional commits to fix the changes.
 6. (TA #1) Take a look at TA #2's PR, and approve/merge it if everything looks good.
