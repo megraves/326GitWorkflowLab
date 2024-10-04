@@ -1,23 +1,30 @@
 
-let display = document.getElementById('display');
 
 // Append number or operator to the display
 function appendToDisplay(value) {
+    let display = document.getElementById('display');
+
     display.value += value;
 }
 
 // Clear the entire display
 function clearDisplay() {
+    let display = document.getElementById('display');
+
     display.value = '';
 }
 
 // Delete the last character from the display
 function deleteLast() {
+    let display = document.getElementById('display');
+
     display.value = display.value.slice(0, -1);
 }
 
 // Calculate and show the result
 function calculateResult() {
+    let display = document.getElementById('display');
+
     try {
         display.value = eval(display.value);
     } catch (error) {
@@ -25,9 +32,15 @@ function calculateResult() {
     }
 }
 
-// TODO: Implement square root function
-function calculateSquareRoot() {
-    // Hint: Use Math.sqrt() function
+function calculateSquareRoot(value=null) {
+    let v;
+    if (!value) {
+        let display = document.getElementById('display');
+        v = display.value;
+    } else {
+        v = value;
+    }
+    return Math.sqrt(v);
 }
 
 // TODO: Implement square function
@@ -39,7 +52,10 @@ function calculateSquare() {
 function calculateReciprocal() {
     // Hint: Reciprocal is 1/x
 }
-
+module.exports = {
+    calculateSquareRoot,
+    calculateSquare,
+};
 
 
 // TODO: Implement memory storage functionality
