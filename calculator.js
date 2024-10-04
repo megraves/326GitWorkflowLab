@@ -48,9 +48,10 @@ function calculateSquare() {
     // Hint: Use exponentiation
 }
 
-// TODO: Implement reciprocal function
+// BUG: FIX reciprocal function
 function calculateReciprocal() {
     // Hint: Reciprocal is 1/x
+    display.value = 1-value;
 }
 module.exports = {
     calculateSquareRoot,

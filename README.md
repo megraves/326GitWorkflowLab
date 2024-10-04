@@ -39,10 +39,12 @@ ensuring the production branch is reliably functional.
 
 - [ ] Implement square root function
 - [ ] Implement square function
-- [ ] Implement reciprocal function
 - [ ] Add keyboard support for number input
 - [ ] Improve the design (CSS styling)
 - [ ] Memory Store (`MS`), Recall (`MR`), and Clear (`MC`)
+
+### Bugs:
+- [ ] Fix reciprocal function
 
 ## Roadmap
 
@@ -72,20 +74,34 @@ the roadmap for future improvements and features:
    - [ ] Write detailed function explanations for new features.
    - [ ] Create usage examples in the `README`.
 
-## How to Contribute
+## How to Set Up The Lab
 
 1. Fork the template
-2. Clone your fork:
+2. Add all contributing TAs to the list of repository contributors
+3. Create ticket in Issue's tab
+4. Clone your fork:
    ```bash
    git clone https://github.com/your-username/js-calculator.git
    ```
-3. Create a new branch:
+5. Create a new branch with name matching corresponding issue:
    ```bash
    git checkout -b feature/my-feature
    ```
 
-4. Make your changes and commit them:
-5. Push your changes to your fork:
+6. Make your changes and commit them:
+7. Push your changes to your fork:
    ```bash
    git push origin feature/my-feature
    ```
+
+## Presentation Instructions
+
+Two TAs will present this lab case study to a group of students. If presented on Zoom, the TAs will take turns sharing their screens presenting the steps they are taking in the following workflow:
+
+1. (TA #1) Select 2 issues from the list above and create corresponding GitHub issues. Include descriptions, tags, and assignments in the issues. Assing one issue to yourself and one issue to the other TA.
+2. (TA #1) Create the branch corresponding to the issue assigned to yourself. Make and push any changes to complete the issue. Don't forget about adding and running tests in the tests file. Create a pull request for the branch and assign the TA #2 as a reviewer.
+3. (TA #2) Create the branch corresponding to the issue assigned to yourself. Make and push any changes to complete the issue. Don't forget about adding and running tests in the tests file. Create a pull request for the branch and assign the TA #1 as a reviewer.
+4. (TA #2) Review the PR from TA #1 and create any necessary comments.
+5. (TA #1) Respond to the TA #1 comments and make any additional commits to fix the changes.
+6. (TA #1) Take a look at TA #2's PR, and approve/merge it if everything looks good.
+7. (TA #2) Approve/merge TA #1's PR.
