@@ -10,18 +10,18 @@
             text-align: center;
         }
         #calculator {
-            width: 200px;
+            width: 400px;
             margin: 0 auto;
             padding: 20px;
             border: 2px solid #000;
         }
         button {
-            width: 40px;
+            width: 60px;
             height: 40px;
             font-size: 18px;
         }
         input {
-            width: 160px;
+            width: 360px;
             height: 40px;
             text-align: right;
             font-size: 18px;
@@ -40,11 +40,16 @@
     <button onclick="memoryStore()">Store</button>
     <button onclick="memoryRecall()">Recall</button>
     <button onclick="memoryClear()">Reset</button><br><br>
+    <button onclick="runSquareRoot()"> sqrt()</button>
 
+    <!-- Calculator buttons -->
     <button onclick="clearDisplay()">C</button>
     <button onclick="deleteLast()">Del</button>
     <button onclick="appendToDisplay('/')">/</button>
     <button onclick="appendToDisplay('*')">*</button><br><br>
+        <!-- Add your features here -->
+
+
     
     <button onclick="appendToDisplay('7')">7</button>
     <button onclick="appendToDisplay('8')">8</button>
@@ -68,7 +73,7 @@
 </div>
 
 <script src="calculator.js"></script>
-
+<script src="scripts.js"></script>
 </body>
 
 </html>

@@ -1,76 +1,51 @@
 
 
-// Append number or operator to the display
-function appendToDisplay(value) {
-    let display = document.getElementById('display');
-
-    display.value += value;
-}
-
-// Clear the entire display
-function clearDisplay() {
-    let display = document.getElementById('display');
-
-    display.value = '';
-}
-
-// Delete the last character from the display
-function deleteLast() {
-    let display = document.getElementById('display');
-
-    display.value = display.value.slice(0, -1);
-}
-
-// Calculate and show the result
-function calculateResult() {
-    let display = document.getElementById('display');
-
-    try {
-        display.value = eval(display.value);
-    } catch (error) {
-        display.value = 'Error';
-    }
-}
-
 // TODO: Fix the square root function not displaying
-function calculateSquareRoot(value=null) {
-    let v;
-    if (!value) {
-        let display = document.getElementById('display');
-        v = display.value;
-    } else {
-        v = value;
-    }
-    return Math.sqrt(v);
+function calculateSquareRoot(value) {
+    
+    // return the square root of the value
 }
 
 // TODO: Implement square function
-function calculateSquare() {
+function calculateSquare(value) {
     // Hint: Use exponentiation
+    // return the square root of the value
+
 }
 
 // BUG: FIX reciprocal function
-function calculateReciprocal() {
+function calculateReciprocal(value) {
     // Hint: Reciprocal is 1/x
-    display.value = 1-value;
+    // return the square root of the value
+    return 1* value;
+
 }
+
+// TODO: Implement natural log function
+function naturalLog(value) {
+    // return the natural log of the value
+}
+
+// TODO: Implement sine function
+function sine(value) {
+    // return the sine of the value
+}
+
+// TODO: Implement cosine function
+function cosine(value) {
+    // return the cosine of the value
+}
+
+// TODO: Implement tangent function
+function tangent(value) {
+    // return the tangent of the value
+}
+
+
+
+
 module.exports = {
     calculateSquareRoot,
     calculateSquare,
+    calculateReciprocal
 };
-
-
-// TODO: Implement memory storage functionality
-let memory = 0;
-
-function memoryStore() {
-    // Hint: Store the current value in memory
-}
-
-function memoryRecall() {
-    // Hint: Recall the stored memory value
-}
-
-function memoryClear() {
-    // Hint: Clear the memory
-}
